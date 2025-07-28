@@ -1,10 +1,10 @@
-# Claude Agent Factory 🚀
+# Claude Agent Super Setup 🚀
 
 Turn your Claude Code into a custom, autonomous development team for any project with a single command.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## What is Claude Agent Factory?
+## What is Claude Agent Super Setup?
 
 It's a "plug-and-play" system for Claude Code that lets you automatically generate a suite of specialized AI sub-agents and a collaboration protocol, all based on an analysis of your codebase.
 
@@ -21,7 +21,7 @@ It's a "plug-and-play" system for Claude Code that lets you automatically genera
 Open your terminal at the **root of your project** and run this command:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/YuniorGlez/claude-agent-factory/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/YuniorGlez/claude-code-super-setup/refs/heads/main/install.sh)
 ```
 
 That's it. The script will copy the necessary structure (`.claude/agents`, `.claude/commands`, `.claude/templates`) into your project.
