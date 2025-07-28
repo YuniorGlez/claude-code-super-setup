@@ -7,12 +7,11 @@ set -e
 
 # --- CONFIGURATION ---
 REPO_OWNER="YuniorGlez"
-REPO_NAME="claude-agent-super-setup" # Usando el nombre que vi en tu script
+REPO_NAME="claude-agent-super-setup"
 BRANCH="main"
 TARGET_DIR=".claude"
 
-# Public, anonymous HTTPS URL
-SOURCE_REPO_URL="https://github.com/${REPO_OWNER}/${REPO_NAME}.git"
+SOURCE_REPO_URL="git@github.com:${REPO_OWNER}/${REPO_NAME}.git"
 TEMP_DIR="/tmp/${REPO_NAME}_install"
 
 echo "🚀 Starting Claude Agent Factory installation..."
